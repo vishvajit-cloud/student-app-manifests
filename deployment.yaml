@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: student-app
+  namespace: student-app
   labels:
     app: student-app
 spec:
