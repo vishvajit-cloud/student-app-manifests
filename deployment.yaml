@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: student-app
-          image: vishvajitcloud/student-app:v1
+          image: vishvajitcloud/student-app:v2
           ports:
             - containerPort: 8080
           resources:
